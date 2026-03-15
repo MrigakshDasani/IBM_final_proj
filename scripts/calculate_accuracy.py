@@ -30,7 +30,7 @@ print("===================================")
 
 print(f"Precision: {precision*100:.2f}%")
 print(f"Recall: {recall*100:.2f}%")
-print(f"mAP50 (Accuracy): {map50*100:.2f}%")
+print(f"mAP50 (Accuracy): {map50*100:.2f}%")    
 
 print("\n===================================")
 print("Validation completed successfully.")

@@ -1,0 +1,26 @@
+# ── Flask core ────────────────────────────────────────────────────────────────
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-JWT-Extended==4.6.0
+Flask-CORS==4.0.1
+
+# ── MySQL driver ───────────────────────────────────────────────────────────────
+# FIX: Was missing from original — required for MySQL+PyMySQL URI
+PyMySQL==1.1.1
+cryptography==42.0.8
+
+# ── Config ─────────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Security / Hashing ─────────────────────────────────────────────────────────
+Werkzeug==3.0.3
+
+# ── Computer Vision & OCR ─────────────────────────────────────────────────────
+ultralytics==8.2.48
+easyocr==1.7.1
+opencv-python-headless==4.10.0.82
+Pillow==10.4.0
+numpy==1.26.4
+
+# ── Production WSGI ────────────────────────────────────────────────────────────
+gunicorn==22.0.0

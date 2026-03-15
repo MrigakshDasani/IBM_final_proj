@@ -1,0 +1,60 @@
+# ── Environment & Secrets ──────────────────────────────────────────────────
+.env
+.flaskenv
+*.env.local
+
+# ── Database & Storage ─────────────────────────────────────────────────────
+# Ignore the data in instance folder (SQLite databases)
+backend/instance/*.db
+backend/instance/*.sqlite
+instance/
+
+# Ignore uploaded images and detection results
+backend/uploads/
+uploads/
+results/
+data/
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Jupyter Notebooks ──────────────────────────────────────────────────────
+.ipynb_checkpoints
+
+# ── IDEs ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Models & Heavy Files ──────────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.weights
+yolov8n.pt
+
+# ── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
