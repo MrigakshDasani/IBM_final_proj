@@ -14,7 +14,7 @@ import requests
 import streamlit as st
 from PIL import Image
 
-API_BASE = os.getenv("API_BASE_URL", "http://127.0.0.1:5000")
+API_BASE = os.getenv("API_BASE_URL", "https://ibm-project-67ot.onrender.com")
 
 st.set_page_config(page_title="ANPR System", page_icon="🚗", layout="wide")
 
