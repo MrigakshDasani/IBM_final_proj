@@ -20,6 +20,10 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Pre-download ML models (YOLO and EasyOCR) to prevent runtime timeouts
+RUN python -c "from ultralytics import YOLO; YOLO('best.pt')" || true
+RUN python -c "import easyocr; reader = easyocr.Reader(['en'], gpu=False)"
+
 # Copy the rest of the application code
 COPY . .
 
