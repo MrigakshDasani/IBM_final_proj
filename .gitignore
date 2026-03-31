@@ -48,12 +48,12 @@ var/
 *.swp
 *.swo
 
-# ── Models & Heavy Files ──────────────────────────────────────────────────
-*.pt
-*.pth
-*.onnx
-*.weights
-yolov8n.pt
+# ── Models & Heavy Files (ALLOWING .pt for deployment) ──────────────────
+# *.pt
+# *.pth
+# *.onnx
+# *.weights
+# yolov8n.pt
 
 # ── OS ─────────────────────────────────────────────────────────────────────
 .DS_Store
