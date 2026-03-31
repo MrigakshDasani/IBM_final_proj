@@ -11,7 +11,7 @@ mysql-connector-python
 python-dotenv
 ultralytics==8.1.0
 opencv-python-headless
-numpy
+numpy<2.0.0
 Pillow
 requests
 easyocr
